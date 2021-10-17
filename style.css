@@ -42,19 +42,33 @@ h1{
 .first-half img{
     width: 100%;
 }
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
 .dream-text{
     padding-top: 130px;
+}
+.ex-total{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+   
+   
 }
 
 .experience-area{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    position: absolute;
+    
 }
 
 .experience-area div{
     box-shadow: 5px 7px 40px gray;
     height: 80%;
+    
 }
 .experience{
     text-align: center;
@@ -64,13 +78,21 @@ h1{
     border-image: linear-gradient(180deg, #117efa, #12E2CE );
     border-image-slice: 1;
     margin-left: 60px;
+    padding-bottom: 50px;
 }
 #full-stack{
     border-left: 8px solid;
     border-image: linear-gradient(180deg, #0e9b09, #e46d0b );
     border-image-slice: 1;
+    padding-bottom: 30px;
 }
 .footer{
     text-align: center;
+    color: gray;
+}
+.ex-h3{
+    color: orange;
+}
+.ex-p{
     color: gray;
 }
