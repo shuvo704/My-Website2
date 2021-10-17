@@ -44,5 +44,33 @@ h1{
 }
 .dream-text{
     padding-top: 130px;
+}
 
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+.experience{
+    text-align: center;
+}
+#baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, #117efa, #12E2CE );
+    border-image-slice: 1;
+    margin-left: 60px;
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, #0e9b09, #e46d0b );
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    color: gray;
 }
